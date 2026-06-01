@@ -1,4 +1,5 @@
 # AI-Powered Calorie Burn Predictor
+<img width="1402" height="1122" alt="Image" src="https://github.com/user-attachments/assets/4e2223ac-e796-492c-be3d-426e59fff751" />
 
 A production-ready intelligent system that predicts calories burned from natural language workout descriptions using **Random Forest** and **Google Gemini LLM**. Built with **Streamlit** for interactive deployment.
 
