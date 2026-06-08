@@ -1,4 +1,8 @@
-# AI-Powered Calorie Burn Predictor
+# AI-Powered Calorie Burn Predictor  
+**Deployment**  
+
+  🚀 **Live App:** [Click here to open Calorie Burn App](https://calorie-clean-app-kfuukhf3zmexzeu86yfibq.streamlit.app)  
+    
 <img width="1402" height="1122" alt="Image" src="https://github.com/user-attachments/assets/4e2223ac-e796-492c-be3d-426e59fff751" />
 
 A production-ready intelligent system that predicts calories burned from natural language workout descriptions using **Random Forest** and **Google Gemini LLM**. Built with **Streamlit** for interactive deployment.
@@ -42,53 +46,53 @@ This project bridges **traditional machine learning** with **generative AI**. Us
 
 ## Tech Stack
 
-| Area | Technology |
-|------|------------|
-| Language | Python 3.12 |
-| ML Framework | Scikit-learn (Random Forest) |
-| LLM | Google Gemini 2.5 Flash |
-| Web App | Streamlit |
-| Data Processing | Pandas, NumPy |
-| Visualization | Matplotlib, Seaborn |
-| Version Control | Git / GitHub |
-| Deployment | Streamlit Cloud |
+| Area | Technology |  
+|------|------------|  
+| Language | Python 3.12 |  
+| ML Framework | Scikit-learn (Random Forest) |  
+| LLM | Google Gemini 2.5 Flash |  
+| Web App | Streamlit |  
+| Data Processing | Pandas, NumPy |  
+| Visualization | Matplotlib, Seaborn |  
+| Version Control | Git / GitHub |  
+| Deployment | Streamlit Cloud |  
 
 ---
 
-## Project Structure
-calorie-clean-app/
-├── app.py # Streamlit application
-├── calorie_model.pkl # Trained Random Forest model
-├── scaler.pkl # StandardScaler for feature scaling
-├── label_encoder.pkl # LabelEncoder for gender
-├── requirements.txt # Python dependencies
-├── README.md # Project documentation
-└── .streamlit/
-└── secrets.toml # API keys (excluded from public repo)
-
-text
+## Project Structure  
+calorie-clean-app/  
+├── app.py # Streamlit application  
+├── calorie_model.pkl # Trained Random Forest model  
+├── scaler.pkl # StandardScaler for feature scaling  
+├── label_encoder.pkl # LabelEncoder for gender  
+├── requirements.txt # Python dependencies  
+├── README.md # Project documentation  
+└── .streamlit/  
+└── secrets.toml # API keys (excluded from public repo)  
+   
+text  
 
 ---
 
-## Installation & Setup
+## Installation & Setup  
 
-### 1. Clone the repository
+### 1. Clone the repository  
 
 ```bash
 git clone https://github.com/usman-official-ai/calorie-clean-app.git
-cd calorie-clean-app
-2. Create a virtual environment (recommended)
-bash
-python -m venv venv
-source venv/bin/activate      # Linux/Mac
-venv\Scripts\activate          # Windows
-3. Install dependencies
-bash
-pip install -r requirements.txt
-4. Set up Gemini API key
-Create .streamlit/secrets.toml:
+cd calorie-clean-app  
+2. Create a virtual environment (recommended)  
+bash  
+python -m venv venv  
+source venv/bin/activate      # Linux/Mac  
+venv\Scripts\activate          # Windows  
+3. Install dependencies  
+bash  
+pip install -r requirements.txt  
+4. Set up Gemini API key  
+Create .streamlit/secrets.toml:  
 
-toml
+toml  
 GEMINI_API_KEY = "your_google_gemini_api_key_here"
 Obtain your free API key from Google AI Studio
 
@@ -177,24 +181,4 @@ If you find this project useful, please consider:
 
 Built with Python, Streamlit, Scikit-learn, and Google Gemini.
 
-text
 
----
-
-## ✅ **Is README mein kya kuch hai?**
-
-| Section | Description |
-|---------|-------------|
-| Table of Contents | Easy navigation |
-| Overview | Project ka summary |
-| Key Features | 8 bullet points |
-| Tech Stack | Table format |
-| Project Structure | Code block |
-| Installation | Step-by-step |
-| Model Performance | Metrics + Feature importance |
-| Sample Input/Output | Real example |
-| AI Automation | 3 modules explained |
-| EDA | What graphs are included |
-| Live Demo | Streamlit link |
-| Author | Your details |
-| License | MIT |
